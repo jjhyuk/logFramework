@@ -14,9 +14,6 @@
 		94E4A4EF2440163E008C33BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94E4A4EE2440163E008C33BD /* Assets.xcassets */; };
 		94E4A4F22440163E008C33BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94E4A4F02440163E008C33BD /* LaunchScreen.storyboard */; };
 		94E4A4F52440163E008C33BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E4A4F42440163E008C33BD /* main.m */; };
-		94E4A50424401654008C33BD /* JinhyukLogFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 94E4A50224401654008C33BD /* JinhyukLogFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		94E4A50F24401693008C33BD /* JinhyukPodTestLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E4A50D24401693008C33BD /* JinhyukPodTestLog.m */; };
-		94E4A51024401693008C33BD /* JinhyukPodTestLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 94E4A50E24401693008C33BD /* JinhyukPodTestLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94E4A5222440314F008C33BD /* JinhyukLogFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94E4A5212440314E008C33BD /* JinhyukLogFramework.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,10 +31,6 @@
 		94E4A4F32440163E008C33BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94E4A4F42440163E008C33BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		94E4A50024401654008C33BD /* JinhyukLogFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JinhyukLogFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		94E4A50224401654008C33BD /* JinhyukLogFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JinhyukLogFramework.h; sourceTree = "<group>"; };
-		94E4A50324401654008C33BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		94E4A50D24401693008C33BD /* JinhyukPodTestLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JinhyukPodTestLog.m; sourceTree = "<group>"; };
-		94E4A50E24401693008C33BD /* JinhyukPodTestLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JinhyukPodTestLog.h; sourceTree = "<group>"; };
 		94E4A5212440314E008C33BD /* JinhyukLogFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JinhyukLogFramework.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,7 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				94E4A4E12440163C008C33BD /* logFramework */,
-				94E4A50124401654008C33BD /* JinhyukLogFramework */,
 				94E4A4E02440163C008C33BD /* Products */,
 				94E4A51B244030B2008C33BD /* Frameworks */,
 			);
@@ -97,17 +89,6 @@
 			path = logFramework;
 			sourceTree = "<group>";
 		};
-		94E4A50124401654008C33BD /* JinhyukLogFramework */ = {
-			isa = PBXGroup;
-			children = (
-				94E4A50E24401693008C33BD /* JinhyukPodTestLog.h */,
-				94E4A50D24401693008C33BD /* JinhyukPodTestLog.m */,
-				94E4A50224401654008C33BD /* JinhyukLogFramework.h */,
-				94E4A50324401654008C33BD /* Info.plist */,
-			);
-			path = JinhyukLogFramework;
-			sourceTree = "<group>";
-		};
 		94E4A51B244030B2008C33BD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,8 +104,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94E4A51024401693008C33BD /* JinhyukPodTestLog.h in Headers */,
-				94E4A50424401654008C33BD /* JinhyukLogFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +217,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94E4A50F24401693008C33BD /* JinhyukPodTestLog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
