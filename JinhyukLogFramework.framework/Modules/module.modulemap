@@ -1,0 +1,6 @@
+framework module JinhyukLogFramework {
+  umbrella header "JinhyukLogFramework.h"
+
+  export *
+  module * { export * }
+}

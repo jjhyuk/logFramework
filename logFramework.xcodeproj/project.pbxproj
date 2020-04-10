@@ -17,18 +17,8 @@
 		94E4A50424401654008C33BD /* JinhyukLogFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 94E4A50224401654008C33BD /* JinhyukLogFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94E4A50F24401693008C33BD /* JinhyukPodTestLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E4A50D24401693008C33BD /* JinhyukPodTestLog.m */; };
 		94E4A51024401693008C33BD /* JinhyukPodTestLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 94E4A50E24401693008C33BD /* JinhyukPodTestLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		94E4A51C244030B2008C33BD /* JinhyukLogFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94E4A50024401654008C33BD /* JinhyukLogFramework.framework */; };
+		94E4A5222440314F008C33BD /* JinhyukLogFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94E4A5212440314E008C33BD /* JinhyukLogFramework.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		94E4A51E244030B2008C33BD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 94E4A4D72440163C008C33BD /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 94E4A4FF24401654008C33BD;
-			remoteInfo = JinhyukLogFramework;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		94E4A4DF2440163C008C33BD /* logFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = logFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +38,7 @@
 		94E4A50324401654008C33BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94E4A50D24401693008C33BD /* JinhyukPodTestLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JinhyukPodTestLog.m; sourceTree = "<group>"; };
 		94E4A50E24401693008C33BD /* JinhyukPodTestLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JinhyukPodTestLog.h; sourceTree = "<group>"; };
+		94E4A5212440314E008C33BD /* JinhyukLogFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JinhyukLogFramework.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94E4A51C244030B2008C33BD /* JinhyukLogFramework.framework in Frameworks */,
+				94E4A5222440314F008C33BD /* JinhyukLogFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +111,7 @@
 		94E4A51B244030B2008C33BD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				94E4A5212440314E008C33BD /* JinhyukLogFramework.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -150,7 +142,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				94E4A51F244030B2008C33BD /* PBXTargetDependency */,
 			);
 			name = logFramework;
 			productName = logFramework;
@@ -252,14 +243,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		94E4A51F244030B2008C33BD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 94E4A4FF24401654008C33BD /* JinhyukLogFramework */;
-			targetProxy = 94E4A51E244030B2008C33BD /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		94E4A4EB2440163C008C33BD /* Main.storyboard */ = {
@@ -396,6 +379,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = logFramework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -412,6 +399,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = logFramework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
