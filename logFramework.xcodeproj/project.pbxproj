@@ -15,14 +15,13 @@
 		94E4A4F22440163E008C33BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94E4A4F02440163E008C33BD /* LaunchScreen.storyboard */; };
 		94E4A4F52440163E008C33BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E4A4F42440163E008C33BD /* main.m */; };
 		94E4A50424401654008C33BD /* JinhyukLogFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 94E4A50224401654008C33BD /* JinhyukLogFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		94E4A50724401654008C33BD /* JinhyukLogFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94E4A50024401654008C33BD /* JinhyukLogFramework.framework */; };
-		94E4A50824401654008C33BD /* JinhyukLogFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 94E4A50024401654008C33BD /* JinhyukLogFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		94E4A50F24401693008C33BD /* JinhyukPodTestLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E4A50D24401693008C33BD /* JinhyukPodTestLog.m */; };
 		94E4A51024401693008C33BD /* JinhyukPodTestLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 94E4A50E24401693008C33BD /* JinhyukPodTestLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94E4A51C244030B2008C33BD /* JinhyukLogFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94E4A50024401654008C33BD /* JinhyukLogFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		94E4A50524401654008C33BD /* PBXContainerItemProxy */ = {
+		94E4A51E244030B2008C33BD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 94E4A4D72440163C008C33BD /* Project object */;
 			proxyType = 1;
@@ -30,20 +29,6 @@
 			remoteInfo = JinhyukLogFramework;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		94E4A50C24401654008C33BD /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				94E4A50824401654008C33BD /* JinhyukLogFramework.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		94E4A4DF2440163C008C33BD /* logFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = logFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94E4A50724401654008C33BD /* JinhyukLogFramework.framework in Frameworks */,
+				94E4A51C244030B2008C33BD /* JinhyukLogFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +75,7 @@
 				94E4A4E12440163C008C33BD /* logFramework */,
 				94E4A50124401654008C33BD /* JinhyukLogFramework */,
 				94E4A4E02440163C008C33BD /* Products */,
+				94E4A51B244030B2008C33BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +117,13 @@
 			path = JinhyukLogFramework;
 			sourceTree = "<group>";
 		};
+		94E4A51B244030B2008C33BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -153,12 +146,11 @@
 				94E4A4DB2440163C008C33BD /* Sources */,
 				94E4A4DC2440163C008C33BD /* Frameworks */,
 				94E4A4DD2440163C008C33BD /* Resources */,
-				94E4A50C24401654008C33BD /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				94E4A50624401654008C33BD /* PBXTargetDependency */,
+				94E4A51F244030B2008C33BD /* PBXTargetDependency */,
 			);
 			name = logFramework;
 			productName = logFramework;
@@ -262,10 +254,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		94E4A50624401654008C33BD /* PBXTargetDependency */ = {
+		94E4A51F244030B2008C33BD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 94E4A4FF24401654008C33BD /* JinhyukLogFramework */;
-			targetProxy = 94E4A50524401654008C33BD /* PBXContainerItemProxy */;
+			targetProxy = 94E4A51E244030B2008C33BD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
