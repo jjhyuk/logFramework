@@ -1,0 +1,4 @@
+# logFramework
+logFrameworkTest
+
+pod 'logFramework'
